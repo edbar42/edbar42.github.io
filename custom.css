@@ -31,3 +31,11 @@ p {
         color: inherit;
     }
 }
+
+.translate-btn {
+    border-color: #48ee50;
+    background-color: #555555;
+    color: #ffffff;
+    font-family: monospace;
+    text-decoration: none;
+}
