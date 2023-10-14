@@ -6,6 +6,11 @@ p {
     text-indent: 2em;
 }
 
-.translate-btn {
+button {
     color: white;
+}
+
+
+h6 {
+    height: 12px;
 }
