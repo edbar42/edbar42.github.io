@@ -1,0 +1,11 @@
+a,a:visited {
+    text-decoration: none;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.translate-btn {
+    color: white;
+}
