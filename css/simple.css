@@ -22,24 +22,6 @@ img,
   video {
     opacity: 0.8;
   }
-  
-/* Dark theme */
-@media (prefers-color-scheme: dark) {
-  :root,
-  ::backdrop {
-    color-scheme: dark;
-    --bg: #fff;
-    --accent-bg: #f5f7ff;
-    --text: #212121;
-    --text-light: #585858;
-    --border: #898EA4;
-    --accent: #0d47a1;
-    --code: #d81b60;
-    --preformatted: #444;
-    --marked: #ffdd33;
-    --disabled: #efefef;
-  }
-}
 
 /* Reset box-sizing */
 *, *::before, *::after {
