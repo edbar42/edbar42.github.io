@@ -1,0 +1,19 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+header {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: "IBM Plex Mono", monospace;
+	margin-top: 1em;
+	text-align: center;
+}
+header > p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+h1 {
+	color: #5599aa;
+}
