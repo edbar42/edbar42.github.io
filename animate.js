@@ -13,7 +13,14 @@ window.addEventListener("DOMContentLoaded", () => {
 		maxDistance: 15.00,
 	})
 
-	const main = document.querySelector('main')
+	const main = document.querySelector("main")
 	main.style.opacity = 1
+
+	const links = document.querySelectorAll("li")
+
+	for (let link of links) {
+		link.addEventListener("mouseover", () => { this.classList.add("hovered") })
+		link.addEventListener("mouseleave", () => { this.classList.remove("hovered") })
+	}
 })
 

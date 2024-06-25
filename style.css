@@ -57,6 +57,9 @@ ul > li {
 	padding: 1em;
 	text-align: center;
 }
+#link:hover {
+	transform: scale(1.05);
+}
 ul > li > a {
 	color: var(--links-colors);
 	text-decoration: none;
